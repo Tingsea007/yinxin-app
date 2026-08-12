@@ -1,0 +1,28 @@
+name: yinxin_app
+description: 印享 - 照片打印与分享
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  image_picker: ^1.0.7
+  qr_flutter: ^4.1.0
+  share_plus: ^7.2.1
+  path_provider: ^2.1.1
+  permission_handler: ^11.1.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
